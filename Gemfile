@@ -43,3 +43,6 @@ group :development, :test do
   gem 'spring'
 end
 
+# env variable to keep sensitive data hidden
+gem 'dotenv-rails', :groups => [:development, :test, :production]	
+
